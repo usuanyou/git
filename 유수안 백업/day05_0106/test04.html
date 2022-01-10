@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> 목록형 태그</h1>
+   <h2> 목록 타입을 표시하기 않기</h2>
+   <div>
+     -html 태그 만으로는 모든 브라우저에 공통적으로 디자인 할 수 없고
+     (타입=넌으로 하면 브라우저마다 달라 ) 
+     -크로스브라우징: css 스타일(style="list-style-type:none ;)을 이용한 디자인을 한다면 대부분 브라우저에 비슷한 디자인을 적용할 수 있다. (똑같은 디자인 아님) 
+   </div>
+ 
+   <ol type="none" style="list-style-type:none ;">오더드 리스트
+   순서가 있는 목록 지정 후 그 안에는 리스트가 있어야 해 
+   (단순히 번호 순서가 아니라 진짜 순서)
+     <li>웹사이트 기획</li>
+     ol>li 탭
+     <ol>
+         <li>요구조사:의뢰인의 요구</li>
+         <li>아키텍쳐 디자인(설계) </li>
+     </ol>
+     <li> HTML5 마크업 언어 (태그를 공부함)</li>
+     <li>css3 디자인 언어</li>
+     <li>javascript 객체지향적 언어</li>
+     <li>jQuery 라이브러리</li>
+   </ol> 
+   
+   <ul type="none" style="list-style-type:none;">오더드 리스트
+     -타입 없애는거 되기도 안되기도 브라우저 따라 달라
+    순서가 있는 목록 지정 후 그 안에는 리스트가 있어야 해 
+    (단순히 번호 순서가 아니라 진짜 순서)
+      <li>웹사이트 기획</li>
+      ol>li 탭
+      <ul type="none">
+          <li>요구조사:의뢰인의 요구</li>
+          <li>아키텍쳐 디자인(설계) </li>
+      </ul>
+      <li> HTML5 마크업 언어 (태그를 공부함)</li>
+      <li>css3 디자인 언어</li>
+      <li>javascript 객체지향적 언어</li>
+      <li>jQuery 라이브러리</li>
+    </ul>
+</body>
+</html>

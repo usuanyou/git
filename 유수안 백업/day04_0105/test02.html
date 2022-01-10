@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+    한글은 KO/kr ->이거 해두면 영ㅇ어 사이트에서 선택 창 안나옴
+    영어는 en   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--주석처리 
+    웹표준: html5로 제작이 되어 있다. css3로 디자인했다. IE11)익스프로러11) 버전 이상만 인식 (IE5,6,7,8,9,10는 해더,nav,section,footer  인식 못함: div 만 인식)
+    웹표준에 적합하게 페이지 만들어야 함
+    시멘틱 태그 : 용도가 정해진 태그
+        header ,nav,section,footer,article,fi )-->
+    <header> <h1>로고 :글씨로된 거 반드시 하나 있어야 함</h1> :꼭 해더 안 아니더라도 웹페이지 안에 하나는 있어야 해
+        <nav> 메뉴 중에서도 검색 대상이 되는 것들 </nav> 
+       <nav> 검색이 되고 싶으면 nav에 감싸라 </nav>
+    </header>
+    <section>
+    <div>:내용. 영역 확인, (포토샵으로 치면 레이어 하나)보통 내용 아무거나 다 여기다 넣어  </div>
+     <arlticle> 
+         :주제가 하나로 따로 빼도 되는 내용. 문단 (카테고리 하나)
+         <figure>
+             <img src="http://placekitten.com/400/300" alt="더미 이미지로 귀여운 고양이 사진">
+             <img src="http://www.placehold.it/400x300" alt="">
+             <!-- 더미 이미지를 넣을 수 있도록 도와주는 사이트/ 원하는 이미지 주소 복사해서 넣어도 됨-->
+             <img src="./images/sim.jpg" width="200" alt="심슨 가족이 거실에 모여있는 모습 메기가 가운데에 있고 뒤로 다른 심슨들이 있다">
+             <img src="./images/sim.jpg" width="200" height="400">
+             <!-- 이미지 기본적인 가로너비는 픽셀 단위 기준으로 저장됨 
+            hgight와 width는 비율에 맞춰 저장해야 하며 width만 조절하면 height는 자동으로 조절됨-->
+             가로를 200 픽셀로 줄인다 알아서 세로 줄어듬
+             이미지 넣을 때 반드시 alt 넣어야 함. 시각 장애인을 위한 텍스트 리더기가 alt 안의 설명을 읽어줌. (웹접근성에 적합한 페이지 만들기 위해서는 넣어줘야 함)
+             ./ 현재 폴더 ../ 상위 폴더
+             ctrl +s : 저장된
+             <img src="images/tiger.jpg" width="100%">
+             <!--나(img)의 부모의 너비의 100%-->
+             지금 쓰는 태그 화면에 꽉차는 태그 ->100 퍼센트면 꽉차
+             <!--% 단위는 생략할 수 없고 나(img)의 부모의 너비를 기준으로 % 비율로 사용.
+            현재는 부모가 모든 브라우저 너비의 100% 상태임-->
+         </figure>
+     </arlticle>
+    </section>
+    <footer>
+        <adress> 회사 주소, 연락처 </adress>
+    </footer>
+</body>
+</html>!
